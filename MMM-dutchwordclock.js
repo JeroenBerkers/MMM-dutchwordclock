@@ -186,16 +186,16 @@ Module.register("MMM-dutchwordclock",{
 		var wrapper = document.createElement("div");
         // 11 letters per line
         // <span id=\"einS\">S</span>
-		wrapper.innerHTML = "&nbsp;<span id=\"it\">H E T</span> K<span id=\"is\"> I S </span> A <span id=\"five\">V I J F</span>&nbsp;<br />" +
-								"&nbsp;<span id=\"ten\">T I E N</span> E L <span id=\"quarter\">K W A R T</span>&nbsp;<br />" +
-								"&nbsp;<span id=\"twenty\">T W I N T I G </span>S P L T&nbsp;<br />" +
-                                "&nbsp;<span id=\"befor\">V O O R</span> N U L <span id=\"past\">O V E R</span>&nbsp;<br />" +
-                                "&nbsp;<span id=\"half\">H A L F </span> T A U F <span id=\"hour1\">E E N </span>Q&nbsp;<br />" +
-                                "&nbsp;<span id=\"hour4\">V I E R</span> S <span id=\"hour12\">T W A A L F </span>&nbsp;<br />" +
-								"&nbsp;<span id=\"hour6\">Z E S </span>X T R <span id=\"hour7\">Z E V E N</span>&nbsp;<br />" +
-								"&nbsp;<span id=\"hour3\">D R I E </span><span id=\"hour5\">V I J F </span><span id=\"hour11\">E L F</span>&nbsp;<br />" +
-                                "&nbsp;<span id=\"hour9\">N E G E N </span>I <span id=\"hour2\">T W E E</span> N&nbsp;<br />" +
-                                "&nbsp;<span id=\"hour8\">A C H T </span><span id=\"hour10\">T I E N </span><span id=\"full\">U U R</span>&nbsp;<br />";
+		wrapper.innerHTML = "&nbsp;<span id=\"it\">H E T</span> V<span id=\"is\"> I S </span> G <span id=\"five\">V I J F</span>&nbsp;<br />" +
+				    "&nbsp;<span id=\"ten\">T I E N</span> E L <span id=\"quarter\">K W A R T</span>&nbsp;<br />" +
+				    "&nbsp;A <span id=\"twenty\">T W I N T I G </span>S P T&nbsp;<br />" +
+                                    "&nbsp;<span id=\"befor\">V O O R</span> N L <span id=\"past\">O V E R</span> T&nbsp;<br />" +
+                                    "&nbsp;<span id=\"half\">H A L F </span> T U <span id=\"hour1\">E E N </span>Q F&nbsp;<br />" +
+                                    "&nbsp;<span id=\"hour4\">V I E R</span> S <span id=\"hour12\">T W A A L F </span>&nbsp;<br />" +
+	  			    "&nbsp;<span id=\"hour6\">Z E S </span>X R <span id=\"hour7\">Z E V E N</span> P&nbsp;<br />" +
+				    "&nbsp;<span id=\"hour3\">D R I E </span><span id=\"hour5\">V I J F </span><span id=\"hour11\">E L F</span>&nbsp;<br />" +
+                                    "&nbsp;<span id=\"hour9\">N E G E N </span>I <span id=\"hour2\">T W E E</span> N&nbsp;<br />" +
+                                    "&nbsp;<span id=\"hour8\">A C H T </span><span id=\"hour10\">T I E N </span><span id=\"full\">U U R</span>&nbsp;<br />";
 
 		return wrapper;
 	}
